@@ -70,11 +70,13 @@ Now that we have some basic models on the board, we want to try to improve these
 
 More feature engineering and exploration.
 Hyperparameter tuning and grid search. All of our models have additional hyperparameters to tune and explore. For example the number of neighbors in KNN or the maximum depth of a Decision Tree.
-Adjust your performance metric
 
 1. Ran LogisticRegression with max_iter = 1000
-2. Ran KNeighborsClassifier with n_neighbors=14 got the best scores
+2. Ran KNeighborsClassifier with n_neighbors=18 got the best scores
 3. Ran Decision Tree Classifier with max depth 1 to 10 and found max depth = 4, got best accuracy
 4. Ran SVC with different Kernels ['rbf', 'poly', 'linear', 'sigmoid'] and found Kernel 'rbf with gamma = 0.1 achieved the best scores. 
 
+Adjust your performance metric:
+
+<img width="437" alt="Tuned_model" src="https://github.com/shailendra-mlai/Comparing-Classifiers/assets/153253910/225ca40f-98ba-4872-ae02-1e91ed7ea824">
 
