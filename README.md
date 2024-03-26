@@ -78,5 +78,8 @@ Hyperparameter tuning and grid search. All of our models have additional hyperpa
 
 Adjust your performance metric:
 
-<img width="437" alt="Tuned_model" src="https://github.com/shailendra-mlai/Comparing-Classifiers/assets/153253910/225ca40f-98ba-4872-ae02-1e91ed7ea824">
+<img width="439" alt="improved_model" src="https://github.com/shailendra-mlai/Comparing-Classifiers/assets/153253910/e4e60d78-232d-4159-b39b-a07a66c491ad">
+
+**Recommendations**
+
 
