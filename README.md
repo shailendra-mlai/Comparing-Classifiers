@@ -81,8 +81,23 @@ Adjust your performance metric:
 <img width="439" alt="improved_model" src="https://github.com/shailendra-mlai/Comparing-Classifiers/assets/153253910/e4e60d78-232d-4159-b39b-a07a66c491ad">
 
 
-**Recommendations**
+**Conclusion and Recommendations**
 
 The business objective is to develop a machine learning model that accurately predicts whether a client will subscribe to a deposit. This model has the potential to enhance campaign efficiency by identifying key characteristics that influence success. By leveraging this model, we can improve resource management, optimize human effort, phone calls, and time allocation, and select a high-quality and cost-effective pool of prospective buyers. Overall, the implementation of this model holds great promise for achieving our business objectives and maximizing the effectiveness of our campaigns.
+
+Model Selection: Among the classifiers tested (Logistic Regression, K Nearest Neighbors, Decision Tree, and Support Vector Machines), the best-performing model is the one with the highest accuracy and acceptable fit time. In this case, the Logistic Regression model with an adjusted max_iter of 1000 shows promising results, achieving an accuracy of 0.887.
+
+Feature Engineering: Further exploration of feature engineering techniques could potentially improve model performance. This includes exploring additional features, transforming existing ones, or creating new ones that may better capture the underlying patterns in the data. Incorporate 13 additional features from the dataset. Select model with highest accuracy and precision.
+
+Hyperparameter Tuning: Fine-tuning hyperparameters for each model can lead to improvements in performance. For instance, in K Nearest Neighbors, setting the number of neighbors to 18 resulted in the best scores, while in Decision Tree, a maximum depth of 4 yielded the highest accuracy. Similarly, for Support Vector Machines, the 'rbf' kernel with a gamma value of 0.1 achieved the best results.
+
+Evaluation Metric: While accuracy is a commonly used metric, it's important to consider other evaluation metrics such as precision, recall, and F1-score, especially in scenarios where class imbalances exist or different costs are associated with false positives and false negatives.
+
+By implementing these recommendations, we can further improve the performance of our models and make more accurate predictions regarding the success of a contact subscribing to the deposit, thereby enhancing campaign efficiency and resource management.
+
+
+
+
+
 
 
