@@ -80,6 +80,9 @@ Adjust your performance metric:
 
 <img width="439" alt="improved_model" src="https://github.com/shailendra-mlai/Comparing-Classifiers/assets/153253910/e4e60d78-232d-4159-b39b-a07a66c491ad">
 
+
 **Recommendations**
+
+The business objective is to develop a machine learning model that accurately predicts whether a client will subscribe to a deposit. This model has the potential to enhance campaign efficiency by identifying key characteristics that influence success. By leveraging this model, we can improve resource management, optimize human effort, phone calls, and time allocation, and select a high-quality and cost-effective pool of prospective buyers. Overall, the implementation of this model holds great promise for achieving our business objectives and maximizing the effectiveness of our campaigns.
 
 
